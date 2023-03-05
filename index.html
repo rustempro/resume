@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Это сайт - резюме Рустема Мустафина">
+    <meta name="keywords" content="Rustem, resume, cv">
+    <title>Рустем резюме</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="верт.jpg" alt="Фото" class="avatar">
+
+            <div class="info-text">
+
+                <h1>Рустем Мустафин</h1>
+
+                <p>
+                    Я <strong> авиаинженер</strong>
+                </p>
+
+                <p>
+                    Люблю путешествия, компьютеры и <em> программирование</em>
+                </p>
+            </div>
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Список соц сетей</h2>
+
+            <a href="https://vk.com" target="_blanc">ВК</a> I
+            <a href="https://telegram.org" target="_blanc">Телеграмм</a> I
+            <a href="https://ok.ru" target="_blanc">Одноклассники</a>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Мои хобби</h2>
+
+            <ol class="list">
+                <li>Чтение книг</li>
+                <li>Прогулки</li>
+                <li>Путешествия</li>
+            </ol>
+        </div>
+
+        <div class="card bg-red">
+            <h2>Опыт работы</h2>
+
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead> -->
+
+                <tbody>
+                    <tr>
+                        <td>Училище</td>
+                        <td>Курсант</td>
+                        <td>2003 - 2006</td>
+                    </tr>
+
+                    <tr>
+                        <td>Армия</td>
+                        <td>Инженер</td>
+                        <td>2006 - 2023</td>
+                    </tr>
+
+                    <tr>
+                        <td>R.School</td>
+                        <td>Студент</td>
+                        <td>2023 - сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card bg-yellow">
+
+            <h2>Мои источники информации</h2>
+
+            <ul class="link-list">
+                <li><a href="https://www.youtube.com/" target="_blanc">YouTube</a></li>
+                <li><a href="https://rutube.ru/" target="_blanc">RuTube</a></li>
+            </ul>
+        </div>
+
+
+        <form action="/" class="form">
+            
+                <h2>Связаться со мной</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <textarea name="" id="message" cols="20" rows="10" placeholder="Введите сообщение"></textarea>
+            </div>
+
+            <button class="btn">Отправить!</button>
+
+            <!-- <input type="submit" value="Отправить форму"> -->
+        </form>
+
+    </div>
+</body>
+
+</html>
